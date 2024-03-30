@@ -1,0 +1,963 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    background-color: #EFEFEF;
+    overflow:scroll;
+}
+
+nav {
+  z-index: 1000;
+  position: fixed;
+  display: flex;
+  width: 1365px;
+  height: 85px;
+  flex-shrink: 0;
+  background: #EAE18E;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+    margin-left: 680px;
+    margin-bottom: 10px;
+  }
+  
+  .search a {
+    display: inline-block;
+  }
+  
+  .logo-cat img {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 80px;
+    margin-left: 40px;
+    order: 1;
+  }
+  
+  .profil-foto {
+    color: #805500;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    order: 3;
+    margin-left: 150px;
+  }
+  
+  .profil-foto img {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 80px;
+    margin-right: 20px;
+  }
+
+  .container{
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  flex-direction: column;
+  }
+
+  .suggest-box {
+    position: fixed;
+    width: 363px;
+    height: 403px;
+    top: 157px;
+    left: 28px;
+    background-color: #eae18e;
+    border-radius: 10px;
+  }
+  
+  .sug {
+    top: 479px;
+    position: fixed;
+    width: 337px;
+    height: 65px;
+    left: 43px;
+  }
+  
+  .match-3 {
+    position: absolute;
+    width: 35px;
+    height: 37px;
+    top: 14px;
+    left: 278px;
+  }
+  
+  .sug-2 {
+    top: 397px;
+    position: fixed;
+    width: 337px;
+    height: 65px;
+    left: 43px;
+  }
+  
+  .sug-3 {
+    top: 314px;
+    position: fixed;
+    width: 337px;
+    height: 65px;
+    left: 43px;
+  }
+  
+  .sug-4 {
+    top: 231px;
+    position: fixed;
+    width: 337px;
+    height: 65px;
+    left: 43px;
+  }
+  
+  .text-wrapper-16 {
+    position: fixed;
+    top: 176px;
+    left: 43px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #805400;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .text-wrapper-13 {
+    position: absolute;
+    width: 122px;
+    top: 15px;
+    left: 84px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #805400;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .text-wrapper-14 {
+    position: absolute;
+    top: 33px;
+    left: 84px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .overlap-group-2 {
+    position: relative;
+    width: 333px;
+    height: 65px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+
+  .foto-2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 8px;
+    left: 9px;
+    object-fit: cover;
+  } 
+  
+   .match-box {
+    position: fixed;
+    width: 365px;
+    height: 170px; /*403px*/
+    top: 157px;
+    left: 973px;
+  }
+  
+   .overlap-2 {
+    width: 363px;
+    height: 170px; /*403px*/
+    background-color: #eae18e;
+    position: relative;
+    border-radius: 10px;
+  }
+  
+   .match-queues {
+    top: 322px;
+    position: absolute;
+    width: 337px;
+    height: 65px;
+    left: 15px;
+  }
+  
+   .overlap-group-2 {
+    position: relative;
+    width: 333px;
+    height: 65px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+   .text-wrapper-13 {
+    position: absolute;
+    width: 122px;
+    top: 15px;
+    left: 84px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #805400;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+   .text-wrapper-14 {
+    position: absolute;
+    top: 33px;
+    left: 84px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+   .message-3 {
+    position: absolute;
+    width: 40px;
+    height: 33px;
+    top: 16px;
+    left: 282px;
+  }
+  
+   .foto-2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 8px;
+    left: 9px;
+    object-fit: cover;
+  }
+  
+   .div-wrapper {
+    top: 240px;
+    position: absolute;
+    width: 337px;
+    height: 65px;
+    left: 15px;
+  }
+  
+   .match-queues-2 {
+    top: 157px;
+    position: absolute;
+    width: 337px;
+    height: 65px;
+    left: 15px;
+  }
+  
+   .match-queues-3 {
+    top: 74px;
+    position: absolute;
+    width: 337px;
+    height: 65px;
+    left: 15px;
+  }
+  
+   .saleh-badawi {
+    position: absolute;
+    width: 122px;
+    top: 15px;
+    left: 82px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #805400;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+   .text-wrapper-15 {
+    position: absolute;
+    top: 10px;
+    left: 22px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #805400;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+.container .post {
+  width: 590px;
+  top: 1902px;
+  position: absolute;
+  height: 800px;
+  left: 431px;
+}
+
+.container .overlap-group {
+  width: 578px;
+  height: 800px;
+  background-color: #f2ebac;
+  position: relative;
+  border-radius: 10px;
+}
+
+.container .text-wrapper {
+  position: absolute;
+  top: 745px;
+  left: 20px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #c7457b;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.container .text-wrapper-2 {
+  position: absolute;
+  top: 697px;
+  left: 20px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.container .text-wrapper-3 {
+  position: absolute;
+  top: 663px;
+  left: 20px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.container .text-wrapper-4 {
+  position: absolute;
+  top: 619px;
+  left: 20px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.container .message {
+  position: absolute;
+  width: 50px;
+  height: 44px;
+  top: 562px;
+  left: 464px;
+}
+
+.container .love {
+  top: 558px;
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  left: 265px;
+}
+
+.container .match {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 558px;
+  left: 65px;
+}
+
+.container .gambar {
+  top: 114px;
+  object-fit: cover;
+  position: absolute;
+  width: 540px;
+  height: 415px;
+  left: 20px;
+}
+
+.container .line {
+  position: absolute;
+  width: 577px;
+  height: 2px;
+  top: 83px;
+  left: 1px;
+  object-fit: cover;
+}
+
+.container .text-wrapper-5 {
+  position: absolute;
+  top: 50px;
+  left: 71px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.container .text-wrapper-6 {
+  width: 257px;
+  top: 17px;
+  left: 71px;
+  font-size: 25px;
+  position: absolute;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #805400;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.container .profil-foto {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 22px;
+  left: 14px;
+  object-fit: cover;
+}
+
+.container .overlap-wrapper {
+  width: 590px;
+  top: 1024px;
+  position: absolute;
+  height: 800px;
+  left: 431px;
+}
+
+.container .img {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 558px;
+  left: 66px;
+}
+
+.container .overlap-group-wrapper {
+  width: 586px;
+  top: 157px;
+  position: absolute;
+  height: 800px;
+  left: 431px;
+}
+
+.container .overlap {
+  width: 578px;
+  height: 800px;
+  background-color: #f1eaab;
+  position: relative;
+  border-radius: 10px;
+}
+
+.container .text-wrapper-7 {
+  position: absolute;
+  top: 749px;
+  left: 20px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #c7457b;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.container .text-wrapper-8 {
+  position: absolute;
+  top: 694px;
+  left: 20px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.container .text-wrapper-9 {
+  position: absolute;
+  top: 655px;
+  left: 20px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.container .text-wrapper-10 {
+  position: absolute;
+  top: 609px;
+  left: 20px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #805400;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.container .message-2 {
+  position: absolute;
+  width: 50px;
+  height: 44px;
+  top: 548px;
+  left: 473px;
+}
+
+.container .love-2 {
+  top: 544px;
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  left: 265px;
+}
+
+.container .match-2 {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 544px;
+  left: 47px;
+}
+
+.container .gambar-2 {
+  top: 107px;
+  position: absolute;
+  width: 540px;
+  height: 415px;
+  left: 20px;
+}
+
+.container .foto {
+  position: absolute;
+  width: 318px;
+  height: 55px;
+  top: 17px;
+  left: 14px;
+}
+
+.container .profil-foto-2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 5px;
+  left: 0;
+  object-fit: cover;
+}
+
+.container .text-wrapper-11 {
+  position: absolute;
+  top: 33px;
+  left: 57px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.container .text-wrapper-12 {
+  position: absolute;
+  width: 257px;
+  top: 0;
+  left: 57px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #805400;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box {
+  border-radius: 10px;
+  width: 578px;
+  height: 800px;
+  transform: scale(0.7); /* Mengurangi skala menjadi setengah */
+  transform-origin: top left;
+  margin-top: 8%;
+  margin-left: 35%;
+  z-index: 500;
+}
+
+
+
+.box .post {
+  position: fixed;
+  width: 586px;
+  height: 800px;
+  top: 0;
+  left: 0;
+}
+
+.box .overlap-group {
+  position: relative;
+  width: 578px;
+  height: 800px;
+  background-color: #f1eaab;
+  border-radius: 10px;
+}
+
+.box .about {
+  position: absolute;
+  top: 749px;
+  left: 20px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #c7457b;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .div {
+  position: absolute;
+  top: 694px;
+  left: 20px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-2 {
+  position: absolute;
+  top: 655px;
+  left: 20px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-3 {
+  position: absolute;
+  top: 609px;
+  left: 20px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #805400;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .message {
+  position: absolute;
+  width: 50px;
+  height: 44px;
+  top: 548px;
+  left: 473px;
+}
+
+.box .love {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 544px;
+  left: 265px;
+}
+
+.box .match {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 544px;
+  left: 47px;
+}
+
+.box .gambar {
+  position: absolute;
+  width: 540px;
+  height: 415px;
+  top: 107px;
+  left: 20px;
+}
+
+.box .line {
+  position: absolute;
+  width: 577px;
+  height: 2px;
+  top: 83px;
+  left: 1px;
+  object-fit: cover;
+}
+
+.box .foto {
+  position: absolute;
+  width: 318px;
+  height: 55px;
+  top: 17px;
+  left: 14px;
+}
+
+.box .profil-foto {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 5px;
+  left: 0;
+  object-fit: cover;
+  margin-left: 0px;
+  border-radius: 50px;
+}
+
+.box .text-wrapper-4 {
+  position: absolute;
+  top: 33px;
+  left: 57px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-5 {
+  position: absolute;
+  width: 257px;
+  top: 0;
+  left: 57px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #805400;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box1 {
+  border-radius: 10px;
+  width: 578px;
+  height: 800px;
+  transform: scale(0.7); /* Mengurangi skala menjadi setengah */
+  transform-origin: top left;
+  margin-top: -15%;
+  margin-left: 35%;
+  z-index: 500;
+}
+
+
+
+.box1 .post {
+  position: fixed;
+  width: 586px;
+  height: 800px;
+  top: 0;
+  left: 0;
+}
+
+.box1 .overlap-group {
+  position: relative;
+  width: 578px;
+  height: 800px;
+  background-color: #f1eaab;
+  border-radius: 10px;
+}
+
+.box1 .about {
+  position: absolute;
+  top: 749px;
+  left: 20px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #c7457b;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box1 .div {
+  position: absolute;
+  top: 694px;
+  left: 20px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box1 .text-wrapper-2 {
+  position: absolute;
+  top: 655px;
+  left: 20px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box1 .text-wrapper-3 {
+  position: absolute;
+  top: 609px;
+  left: 20px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #805400;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box1 .message {
+  position: absolute;
+  width: 50px;
+  height: 44px;
+  top: 548px;
+  left: 473px;
+}
+
+.box1 .love {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 544px;
+  left: 265px;
+}
+
+.box1 .match {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 544px;
+  left: 47px;
+}
+
+.box1 .gambar {
+  position: absolute;
+  width: 540px;
+  height: 415px;
+  top: 107px;
+  left: 20px;
+}
+
+.box1 .line {
+  position: absolute;
+  width: 577px;
+  height: 2px;
+  top: 83px;
+  left: 1px;
+  object-fit: cover;
+}
+
+.box1 .foto {
+  position: absolute;
+  width: 318px;
+  height: 55px;
+  top: 17px;
+  left: 14px;
+}
+
+.box1 .profil-foto {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 5px;
+  left: 0;
+  object-fit: cover;
+  margin-left: 0px;
+  border-radius: 50px;
+}
+
+.box1 .text-wrapper-4 {
+  position: absolute;
+  top: 33px;
+  left: 57px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box1 .text-wrapper-5 {
+  position: absolute;
+  width: 257px;
+  top: 0;
+  left: 57px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #805400;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+@media screen and (max-width: 600px) {
+  nav {
+      height: 60px; /* Sesuaikan tinggi untuk perangkat seluler */
+  }
+
+  .logo-cat img {
+      width: 60px; /* Ukuran logo yang lebih kecil */
+      height: 60px; /* Ukuran logo yang lebih kecil */
+  }
+
+  .text-wrapper-16 {
+      font-size: 16px; /* Ukuran font yang lebih kecil */
+  }
+
+  .profil-foto {
+      margin-left: 10px; /* Jarak yang lebih kecil dari kiri */
+  }
+  .box{
+    margin-top: 20%;
+    margin-left: 10%;
+    
+  }
+  .box1{
+    margin-left: 10%;
+  }
+  .suggest-box {
+    display: none;
+  }
+  
+}

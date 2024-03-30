@@ -1,0 +1,165 @@
+.body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-left: 100px;
+}
+
+.box {
+  width: 578px;
+  height: 800px;
+  transform: scale(0.7); /* Mengurangi skala menjadi setengah */
+  transform-origin: top left;
+}
+
+
+
+.box .post {
+  position: fixed;
+  width: 586px;
+  height: 800px;
+  top: 0;
+  left: 0;
+}
+
+.box .overlap-group {
+  position: relative;
+  width: 578px;
+  height: 800px;
+  background-color: #f1eaab;
+  border-radius: 10px;
+}
+
+.box .text-wrapper {
+  position: absolute;
+  top: 749px;
+  left: 20px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #c7457b;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .div {
+  position: absolute;
+  top: 694px;
+  left: 20px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-2 {
+  position: absolute;
+  top: 655px;
+  left: 20px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-3 {
+  position: absolute;
+  top: 609px;
+  left: 20px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #805400;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .message {
+  position: absolute;
+  width: 50px;
+  height: 44px;
+  top: 548px;
+  left: 473px;
+}
+
+.box .love {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 544px;
+  left: 265px;
+}
+
+.box .match {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 544px;
+  left: 47px;
+}
+
+.box .gambar {
+  position: absolute;
+  width: 540px;
+  height: 415px;
+  top: 107px;
+  left: 20px;
+}
+
+.box .line {
+  position: absolute;
+  width: 577px;
+  height: 2px;
+  top: 83px;
+  left: 1px;
+  object-fit: cover;
+}
+
+.box .foto {
+  position: absolute;
+  width: 318px;
+  height: 55px;
+  top: 17px;
+  left: 14px;
+}
+
+.box .profil-foto {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 5px;
+  left: 0;
+  object-fit: cover;
+}
+
+.box .text-wrapper-4 {
+  position: absolute;
+  top: 33px;
+  left: 57px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-5 {
+  position: absolute;
+  width: 257px;
+  top: 0;
+  left: 57px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #805400;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}

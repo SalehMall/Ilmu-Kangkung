@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    background-color: #EFEFEF;
+    overflow:scroll;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 85px;
+  flex-shrink: 0;
+  background: #EAE18E;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  z-index: 9999;
+}
+
+nav a {
+  color: black;
+  display: inline-block; 
+}
+
+p a {
+  text-decoration: none;
+}
+
+
+nav p{
+margin-top: 27px;
+margin-left: 1px;
+width: 52.448px;
+height: 23px;
+flex-shrink: 0;
+color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+.logo-cat {
+  position:fixed; 
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.4);
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+
+.profile {
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  
+} 
+
+
+.profile .profil-foto {
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  top: 130px;
+  left: 100px;
+  border-radius: 250px;
+  object-fit: cover;
+}
+
+.profile .nama {
+  position: absolute;
+  top: 160px;
+  left: 320px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile .overlap-2 {
+  position: absolute;
+  width: 190px;
+  height: 65px;
+  top: 200px;
+  left: 320px;
+}
+
+
+.profile .jenis-kucing {
+  position: absolute;
+  width: 150px;
+  margin-top: 12px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile .lokasi {
+  position: absolute;
+  width: 166px;
+  margin-top: 7px;
+  top: 28px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile .button-edit {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 96px;
+  height: 26px;
+  top: 270px;
+  left: 320px;
+}
+
+.profile .div-wrapper {
+  position: relative;
+  width: 94px;
+  height: 26px;
+  background-color: #b28a4fee;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.profile .edit{
+  position: absolute;
+  width: 92px;
+  top: 4px;
+  left: 0;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.profile .foto-1 {
+  position: absolute;
+  width: 370px;
+  height: 245px;
+  top: 370px;
+  left: 955px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.profile .img {
+  position: absolute;
+  width: 340px;
+  height: 215px;
+  top: 15px;
+  left: 15px;
+  object-fit: cover;
+}
+
+.profile .foto-2 {
+  position: absolute;
+  width: 370px;
+  height: 245px;
+  top: 370px;
+  left: 520px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.profile .foto-3{
+  position: absolute;
+  width: 370px;
+  height: 245px;
+  top: 370px;
+  left: 80px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.profile .desc-box {
+  position: absolute;
+  width: 646px;
+  height: 135px;
+  top: 650px;
+  left: 680px;
+}
+
+.profile .overlap-group {
+  position: relative;
+  width: 644px;
+  height: 110px;
+  background-color: #eae18e;
+  border-radius: 10px;
+}
+
+.profile .desc-box-white {
+  position: absolute;
+  width: 612px;
+  height: 70px;
+  top: 19px;
+  left: 17px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.profile .text-wrapper {
+  position: absolute;
+  width: 564px;
+  height: 80px;
+  top: 40px;
+  left: 40px;
+  font-family: "Amethysta-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile .about-my-cat-box {
+  position: absolute;
+  margin-left: -20px;
+  width: 100%;
+  height: 406px;
+  top: 650px;
+  left: 100px;
+}
+
+.profile .overlap {
+  position: relative;
+  width: 556px;
+  height: 430px;
+  background-color: #eae18e;
+  border-radius: 10px;
+}
+
+.profile .tentang-kucing-box {
+  position: absolute;
+  width: 490px;
+  height: 292px;
+  top: 90px;
+  left: 34px;
+}
+
+.profile .name-mocha-age-wrapper {
+  width: 488px;
+  height: 320px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.profile .name-mocha-age {
+  position: absolute;
+  width: 460px;
+  top: 14px;
+  left: 23px;
+  font-family: "Amethysta-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile .text-wrapper-2 {
+  position: absolute;
+  width: 362px;
+  top: 19px;
+  left: 97px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile .line {
+  position: absolute;
+  width: 556px;
+  height: 1px;
+  top: 73px;
+  left: 0;
+  object-fit: cover;
+}
+
+.profile .what-i-want {
+  position: absolute;
+  margin-left: -40px;
+  width: 646px;
+  height: 246px;
+  top: 790px;
+  left: 720px;
+}
+
+.profile .overlap-3 {
+  position: relative;
+  width: 644px;
+  height: 246px;
+  background-color: #eae18e;
+  border-radius: 10px;
+}
+
+.profile .desc-white {
+  position: absolute;
+  width: 614px;
+  height: 147px;
+  top: 79px;
+  left: 16px;
+}
+
+.profile .hello-i-m-mocha-i-wrapper {
+  width: 612px;
+  height: 147px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.profile .hello-i-m-mocha-i {
+  position: absolute;
+  width: 564px;
+  height: 138px;
+  top: 9px;
+  left: 24px;
+  font-family: "Amethysta-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile .text-wrapper-7 {
+  position: absolute;
+  width: 362px;
+  top: 16px;
+  left: 141px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}

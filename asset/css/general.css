@@ -191,11 +191,11 @@ line-height: normal;
   border-style: solid;
   border-color: #cfcfcf;
   border-width: 1px;
-  width: 750px;
-  height: 250px;
+  width: 800px;
+  height: 450px;
   position: absolute;
   left: 483px;
-  top: 240px;
+  top: 160px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -206,87 +206,135 @@ line-height: normal;
   font-size: 20px;
   font-weight: 700;
   position: absolute;
-  margin-top: 20px;
-  margin-left: 20px;
- 
+  left: 500px;
+  top: 180px;
+  width: 293px;
+  height: 33px;
 }
 
+.full-name3 {
+  background: #ffffff;
+  border-radius: 15px;
+  width: 755px;
+  height: 40px;
+  position: absolute;
+  left: 500px;
+  top: 260px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
 
 .full-name {
-  color: #000;
+  color: #828282;
   text-align: left;
   font-family: "Inter-Medium", sans-serif;
   font-size: 16px;
-  font:bold;
   font-weight: 500;
   position: absolute;
-  margin-top: 80px;
-  margin-left: 20px;
-
-
+  left: 515px;
+  top: 237px;
+  width: 180px;
+  height: 31px;
 }
 
 .username {
-  color: #000;
+  color: #828282;
   text-align: left;
   font-family: "Inter-Medium", sans-serif;
   font-size: 16px;
-  font:bold;
   font-weight: 500px;
   position: absolute;
-  margin-left: 20px;
-  margin-top: 150px;
-
+  left: 515px;
+  top: 340px;
+  width: 198px;
+  height: 31px;
 }
-
-.toggle {
-  position: relative;
-  display: inline-block;
-  margin-top: 0.5rem;
-  width: 50px;
-  height: 26px;
-  background-color: hsl(0, 0%, 85%);
-  border-radius: 25px;
-  cursor: pointer;
-  transition: background-color 0.25s ease-in;
-}
-.toggle::after {
-  content: '';
+.phone-number {
+  color: #828282;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
   position: absolute;
-  top: 2px;
-  left: 2px;
-  width: 22px;
-  height: 22px;
-  background-color: white;
-  border-radius: 50%;
-  transition: all 0.25s ease-out;
-}
-#cb-toggle1:checked + .toggle {
-  background-color: hsl(0, 0%, 0%);
-}
-#cb-toggle1:checked + .toggle::after {
-  transform: translateX(24px);
+  left: 930px;
+  top: 340px;
+  width: 198px;
+  height: 31px;
 }
 
-#cb-toggle2:checked + .toggle {
-  background-color: hsl(0, 0%, 0%);
-}
-#cb-toggle2:checked + .toggle::after {
-  transform: translateX(24px);
-}
-
-.hide-me {
-  opacity: 0;
-  height: 0;
-  width: 0;
+.username-input{
+  background: #ffffff;
+  border-radius: 15px;
+  width: 340px;
+  height: 40px;
+  position: absolute;
+  left: 500px;
+  top: 360px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+.phone-input{
+  background: #ffffff;
+  border-radius: 15px;
+  width: 350px;
+  height: 40px;
+  position: absolute;
+  left: 900px;
+  top: 360px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
 
-.btn1{
-  margin-top: 70px;
-  margin-left: 640px;
+.input-email {
+  background: #ffffff;
+  border-radius: 15px;
+  width: 755px;
+  height: 40px;
+  position: absolute;
+  left: 500px;
+  top: 460px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.btn2{
-  margin-top: 40px;
-  margin-left: 640px;
+
+.email {
+  color: #828282;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  left: 515px;
+  top: 440px;
+  width: 180px;
+  height: 31px;
 }
+
+.change-password {
+  color: #be3333;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  left: 515px;
+  top: 520px;
+  width: 198px;
+  height: 31px;
+}
+
+.button{
+  background: #b28a4f;
+  border-radius: 5px;
+  width: 340px;
+  height: 40px;
+  position: absolute;
+  left: 727px;
+  top: 551px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  padding-top: 10px;
+}
+

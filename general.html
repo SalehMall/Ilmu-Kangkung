@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TinPaw Settings</title>
-    <link rel="stylesheet" href="asset/css/GI.css">
+    <link rel="stylesheet" href="asset/css/general.css">
     <!-- font inter-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,17 +20,15 @@
         <a href="index.html"><i class='bx bx-left-arrow-alt'  style='font-size: 40px; margin-top: 20px; margin-left: 65px; color: black;'></i></a>
         <p><a href="index.html">Back</a></p>
 </nav>
-<div class="settings2">Settings</div>
-<div class="line-2"></div>
-<div class="general-information">General Information</div>
-<div class="line-3"></div>
-<div class="notifications">Notifications</div>]
-<div class="line-4"></div>
-<div class="security">Security</div>
-<div class="line-5"></div>
-<div class="sign-out">Sign Out</div>
 
-<svg
+<div class="setting">
+  <div class="settings2">Settings</div>
+  <div class="line-2"></div>
+  
+<div class="draf"><a href="general.html">
+  <div class="general-information">General Information</div>
+  <div class="line-3"></div>
+  <svg
 class="user-solid-1-1"
 width="40"
 height="43"
@@ -49,8 +47,13 @@ xmlns="http://www.w3.org/2000/svg"
     <rect width="40" height="43" fill="white" />
   </clipPath>
 </defs>
-</svg>
-<svg
+  </svg>
+</a>
+</div>
+<div class="draf2"><a href="notifications.html">
+  <div class="notifications">Notifications</div>]
+  <div class="line-4"></div>
+  <svg
 class="bell-solid-1"
 width="36"
 height="44"
@@ -69,7 +72,29 @@ xmlns="http://www.w3.org/2000/svg"
     <rect width="36" height="44" fill="white" />
   </clipPath>
 </defs>
+  </svg>
+</a>
+</div>
+<div class="draf3"><a href="security.html">
+  <div class="security">Security</div>
+  <div class="line-5"></div>
+  <svg
+class="shield-halved-solid-1"
+width="45"
+height="45"
+viewBox="0 0 45 45"
+fill="none"
+xmlns="http://www.w3.org/2000/svg"
+>
+<path
+  d="M22.5 0C22.9043 0 23.3086 0.0878906 23.6778 0.254883L40.2276 7.27734C42.1612 8.09473 43.6026 10.002 43.5938 12.3047C43.5498 21.0234 39.9639 36.9756 24.8204 44.2266C23.3526 44.9297 21.6475 44.9297 20.1797 44.2266C5.03617 36.9756 1.45024 21.0234 1.40629 12.3047C1.3975 10.002 2.83891 8.09473 4.7725 7.27734L21.3311 0.254883C21.6914 0.0878906 22.0957 0 22.5 0ZM22.5 5.87109V39.0938C34.6289 33.2227 37.8897 20.2236 37.9688 12.4277L22.5 5.87109Z"
+  fill="black"
+/>
 </svg>
+</a>
+</div>
+<div class="draf4"><a href="sign-out.html">
+<div class="sign-out">Sign Out</div>
 <svg
 class="arrow-right-from-bracket-solid-1"
 width="40"
@@ -83,20 +108,9 @@ xmlns="http://www.w3.org/2000/svg"
   fill="black"
 />
 </svg>
-
-<svg
-class="shield-halved-solid-1"
-width="45"
-height="45"
-viewBox="0 0 45 45"
-fill="none"
-xmlns="http://www.w3.org/2000/svg"
->
-<path
-  d="M22.5 0C22.9043 0 23.3086 0.0878906 23.6778 0.254883L40.2276 7.27734C42.1612 8.09473 43.6026 10.002 43.5938 12.3047C43.5498 21.0234 39.9639 36.9756 24.8204 44.2266C23.3526 44.9297 21.6475 44.9297 20.1797 44.2266C5.03617 36.9756 1.45024 21.0234 1.40629 12.3047C1.3975 10.002 2.83891 8.09473 4.7725 7.27734L21.3311 0.254883C21.6914 0.0878906 22.0957 0 22.5 0ZM22.5 5.87109V39.0938C34.6289 33.2227 37.8897 20.2236 37.9688 12.4277L22.5 5.87109Z"
-  fill="black"
-/>
-</svg>
+</div>
+</a>
+</div>
 
 <!-- form -->
 <div class="form"></div>
@@ -113,8 +127,8 @@ xmlns="http://www.w3.org/2000/svg"
 <input class="input-email" type="text"></input>
 
 <div class="change-password">Change password</div>
-<a href="#"><div class="button"></div></a>
-<div class="save-changes">save changes</div>
+<a href="#"><div class="button">save changes</div></a>
+
 
 
 

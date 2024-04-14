@@ -192,7 +192,7 @@ line-height: normal;
   border-color: #cfcfcf;
   border-width: 1px;
   width: 750px;
-  height: 250px;
+  height: 170px;
   position: absolute;
   left: 483px;
   top: 240px;
@@ -268,12 +268,7 @@ line-height: normal;
   transform: translateX(24px);
 }
 
-#cb-toggle2:checked + .toggle {
-  background-color: hsl(0, 0%, 0%);
-}
-#cb-toggle2:checked + .toggle::after {
-  transform: translateX(24px);
-}
+
 
 .hide-me {
   opacity: 0;

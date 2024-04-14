@@ -191,11 +191,11 @@ line-height: normal;
   border-style: solid;
   border-color: #cfcfcf;
   border-width: 1px;
-  width: 800px;
-  height: 450px;
+  width: 750px;
+  height: 250px;
   position: absolute;
   left: 483px;
-  top: 160px;
+  top: 240px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -206,140 +206,87 @@ line-height: normal;
   font-size: 20px;
   font-weight: 700;
   position: absolute;
-  left: 500px;
-  top: 180px;
-  width: 293px;
-  height: 33px;
+  margin-top: 20px;
+  margin-left: 20px;
+ 
 }
 
-.full-name3 {
-  background: #ffffff;
-  border-radius: 15px;
-  width: 755px;
-  height: 40px;
-  position: absolute;
-  left: 500px;
-  top: 260px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
 
 .full-name {
-  color: #828282;
+  color: #000;
   text-align: left;
   font-family: "Inter-Medium", sans-serif;
   font-size: 16px;
+  font:bold;
   font-weight: 500;
   position: absolute;
-  left: 515px;
-  top: 237px;
-  width: 180px;
-  height: 31px;
+  margin-top: 80px;
+  margin-left: 20px;
+
+
 }
 
 .username {
-  color: #828282;
+  color: #000;
   text-align: left;
   font-family: "Inter-Medium", sans-serif;
   font-size: 16px;
+  font:bold;
   font-weight: 500px;
   position: absolute;
-  left: 515px;
-  top: 340px;
-  width: 198px;
-  height: 31px;
-}
-.phone-number {
-  color: #828282;
-  text-align: left;
-  font-family: "Inter-Medium", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  position: absolute;
-  left: 930px;
-  top: 340px;
-  width: 198px;
-  height: 31px;
+  margin-left: 20px;
+  margin-top: 150px;
+
 }
 
-.username-input{
-  background: #ffffff;
-  border-radius: 15px;
-  width: 340px;
-  height: 40px;
+.toggle {
+  position: relative;
+  display: inline-block;
+  margin-top: 0.5rem;
+  width: 50px;
+  height: 26px;
+  background-color: hsl(0, 0%, 85%);
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.25s ease-in;
+}
+.toggle::after {
+  content: '';
   position: absolute;
-  left: 500px;
-  top: 360px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  top: 2px;
+  left: 2px;
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 0.25s ease-out;
+}
+#cb-toggle1:checked + .toggle {
+  background-color: hsl(0, 0%, 0%);
+}
+#cb-toggle1:checked + .toggle::after {
+  transform: translateX(24px);
 }
 
-.phone-input{
-  background: #ffffff;
-  border-radius: 15px;
-  width: 350px;
-  height: 40px;
-  position: absolute;
-  left: 900px;
-  top: 360px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+#cb-toggle2:checked + .toggle {
+  background-color: hsl(0, 0%, 0%);
+}
+#cb-toggle2:checked + .toggle::after {
+  transform: translateX(24px);
 }
 
-.input-email {
-  background: #ffffff;
-  border-radius: 15px;
-  width: 755px;
-  height: 40px;
-  position: absolute;
-  left: 500px;
-  top: 460px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+.hide-me {
+  opacity: 0;
+  height: 0;
+  width: 0;
 }
 
-.email {
-  color: #828282;
-  text-align: left;
-  font-family: "Inter-Medium", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  position: absolute;
-  left: 515px;
-  top: 440px;
-  width: 180px;
-  height: 31px;
-}
 
-.change-password {
-  color: #be3333;
-  text-align: left;
-  font-family: "Inter-Medium", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  position: absolute;
-  left: 515px;
-  top: 520px;
-  width: 198px;
-  height: 31px;
+.btn1{
+  margin-top: 70px;
+  margin-left: 640px;
 }
-
-.button{
-  background: #b28a4f;
-  border-radius: 5px;
-  width: 340px;
-  height: 40px;
-  position: absolute;
-  left: 727px;
-  top: 551px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-
-.save-changes {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
-  font-weight: 700;
-  position: absolute;
-  left: 816px;
-  top: 560px;
-  width: 143px;
-  height: 18px;
+.btn2{
+  margin-top: 40px;
+  margin-left: 640px;
 }

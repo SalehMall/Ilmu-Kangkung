@@ -787,9 +787,9 @@ nav {
   border: 1px solid #EAE18E;
   border-radius: 10px;
   font-size: 16px;
-  width: 300px;
+  width: 400px;
   transition: border-color 0.3s ease;
-  margin-left: -55%;
+  margin-left: -75%;
 }
 
 .search input[type="text"]:focus {
